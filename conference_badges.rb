@@ -12,7 +12,7 @@ def batch_badge_creator(names)
   end
 
 def assign_rooms(speakers)
-  rooms = []
+  rooms = rooms.new
   speakers.each_with_index do {|x, index|
 rooms[x] = index
   }
