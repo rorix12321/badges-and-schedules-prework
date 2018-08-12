@@ -10,3 +10,9 @@ def batch_badge_creator(names)
   end
     return array1
   end
+
+def assign_rooms(speakers)
+  speakers.each_with_index
+end
+
+    
